@@ -87,7 +87,7 @@ If deploying on Streamlit Cloud, be sure to:
 * Add `streamlit-webrtc` to `requirements.txt`
 * Upload a `.streamlit/secrets.toml` if using Hugging Face API tokens (for private models)
 
-## 🤝 **Contributions**
+## 🤝 Contributions
 
-**Contributions, **issues, **and **suggestions **are **welcome!
-Feel **free **to **open **a **pull **request **or **contact **me.**
+Contributions, issues, and suggestions are welcome!
+Feel free to open a pull request or contact me.
