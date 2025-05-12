@@ -3,9 +3,9 @@
 The app will detect the face and draw a bounding box around it. It will then predict the person’s approximate age range and gender (male/female). The application combines live face detection with demographic prediction: it can run on a webcam stream or on uploaded images, drawing bounding boxes around detected faces and overlaying age/gender labels with confidence bars. Similar projects use pre-trained models for these tasks, for example noting that they “utilize pre-trained deep learning models to detect faces, estimate age, and classify gender”. Key features include:
 
 * **Face Detection:** Uses OpenCV’s Haar cascade to locate faces in each frame. Detected faces are outlined with a box (e.g. “created a bounding box around it”) as a foundation for further analysis.
-* **Gender Classification:** A Hugging Face Vision Transformer (`<span>rizvandwiki/gender-classification</span>`) predicts each face’s gender (male or female) in real time.
-* **Age Classification:** A Hugging Face Vision Transformer (`<span>nateraw/vit-age-classifier</span>`) predicts the face’s age group (an approximate age range).
-* **Webcam & Upload Modes:** The app supports streaming live video from the webcam (using `<span>streamlit-webrtc</span>`) or uploading static images for analysis. The user can switch between these modes in the interface.
+* **Gender Classification:** A Hugging Face Vision Transformer (`rizvandwiki/gender-classification`) predicts each face’s gender (male or female) in real time.
+* **Age Classification:** A Hugging Face Vision Transformer (`nateraw/vit-age-classifier`) predicts the face’s age group (an approximate age range).
+* **Webcam & Upload Modes:** The app supports streaming live video from the webcam (using `streamlit-webrtc`) or uploading static images for analysis. The user can switch between these modes in the interface.
 * **Visual Output:** The app overlays bounding boxes and confidence bars on the video/image feed. Detected faces are annotated with the predicted age range and gender label along with a confidence score.
 
 ## 🚀 Features
