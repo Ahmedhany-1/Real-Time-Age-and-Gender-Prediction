@@ -1,5 +1,3 @@
-#detector.py
-
 import cv2
 import torch
 from PIL import Image
@@ -40,3 +38,8 @@ def predict_age_gender(face_img):
     age_idx = age_probs.argmax(-1).item()
     age_label = age_model.config.id2label[age_idx]
     age_conf = age_probs[0][age_idx].item()
+
+    return {
+        "gender": (gender_label, gender_conf),
+        "age": (age_label, age_conf)
+    }
