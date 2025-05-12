@@ -78,9 +78,9 @@ real-time-age-gender-detection/
 
 You can deploy this app on:
 
-* [Streamlit **Community **Cloud]()
+* [Streamlit Community Cloud]()
 * [Render](https://render.com)
-* [Heroku](https://heroku.com) *(**requires **special **support **for **webcam)***
+* [Heroku](https://heroku.com) (requires special support for **webcam)**
 
 If deploying on Streamlit Cloud, be sure to:
 
