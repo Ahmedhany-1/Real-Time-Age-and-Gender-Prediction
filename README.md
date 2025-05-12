@@ -74,7 +74,7 @@ real-time-age-gender-detection/
 3. **View Results:** Once the mode is active, the app will display the input video stream or image. Faces in each frame will be detected, boxed, and annotated. You will see each detected face’s predicted age range and gender (male/female) with a confidence bar.
 4. **Stop or Exit:** To end the webcam session, press the Stop button or close the window.
 
-## 🌍 **Deployment (**Optional)
+## 🌍 Deployment
 
 You can deploy this app on:
 
